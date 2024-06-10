@@ -1,0 +1,5 @@
+###
+GET http://localhost:8081/summary/1548787878787
+
+###
+GET http://localhost:8081/summary/detail

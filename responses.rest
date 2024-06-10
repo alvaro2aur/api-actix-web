@@ -1,0 +1,26 @@
+###
+GET http://localhost:8081/summary/1548787878787
+
+{
+    "idta": 1548787878787,
+    "entityType": "sector",
+    "entityName": "DON AMBORSION",
+    "pavilionNumber": 1,
+    "pavilionType": "A",
+    "currentBreeding": 23,
+    "sex": "HEMBRA",
+    "age": 23,
+    "totalAnimals": 103,
+    "productiveState" "Abierto"
+    "cumulativeMortality": 23,
+    "averageProfit": 23,
+    "convercion": 34,
+    "averageWeight": 1.467,
+    "food": "danger",
+    "temperature": "normal",
+    "mortality": "normal",
+    "connectivity": "warning"
+}
+
+###
+GET http://localhost:8081/summary/detail
