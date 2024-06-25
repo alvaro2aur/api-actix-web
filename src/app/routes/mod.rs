@@ -1,7 +1,8 @@
 use actix_web::web;
 
-pub mod hello;
+pub mod summary;
+pub mod models;
 
 pub fn init(cfg: &mut web::ServiceConfig) {
-    cfg.service(hello::detail).service(hello::summary);
+    cfg.service(summary::get_summary);
 }
