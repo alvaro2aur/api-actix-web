@@ -275,6 +275,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "app"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "futures",
+ "rand",
+ "sea-orm",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "arrayvec"
 version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1253,18 +1265,6 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys 0.48.0",
-]
-
-[[package]]
-name = "msw-summary"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "futures",
- "rand",
- "sea-orm",
- "serde",
- "serde_json",
 ]
 
 [[package]]

@@ -1,0 +1,22 @@
+trigger:
+  - main
+
+variables:
+  imageName: "msw-summary"
+  imageTag: "v0.1.0-$(build.buildId)"
+  projectName: "$(build.repository.name)"
+pool:
+  vmImage: ubuntu-latest
+
+resources:
+  repositories:
+    - repository: pipelines
+      type: git
+      name: SPGA/pipelines
+
+stages:
+  - template: R-rust.yaml@pipelines
+    parameters:
+      imageName: $(imageName)
+      imageTag: $(imageTag)
+      projectName: $(projectName)
