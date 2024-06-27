@@ -1,5 +1,5 @@
 # Introduction 
-This service manages requests for entity summary and detail views of Monitor One dashboard. It integrates with other microservices to compile and structure the necessary data that feeds the user interfaces in the frontend. Its main function is to act as an intermediary, processing and organizing information from various sources to present it coherently and efficiently in the frontend.
+This service manages requests for entity summary and detail views of dashboard. It integrates with other microservices to compile and structure the necessary data that feeds the user interfaces in the frontend. Its main function is to act as an intermediary, processing and organizing information from various sources to present it coherently and efficiently in the frontend.
 
 # Getting Started
 It's developed using [Actix Web](https://actix.rs/) for Rust and utilizes a PostgreSQL database.

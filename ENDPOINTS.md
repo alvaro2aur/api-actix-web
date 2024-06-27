@@ -8,7 +8,7 @@ Returns summary view data for dependent entities ('children') associated with an
 
 | Key | Required | Type | Ejemplo | Descripción |
 |--------|-----------|------|---------|------------ |
-| idta | No | number | 2103010100000 | Tecnoandina id entity |
+| idta | No | number | 2103010100000 | id entity |
 
 #### Successful response (Código 200)
 #### Zones
