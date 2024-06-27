@@ -2,11 +2,5 @@
 /target
 .env
 
-# vscode
-/.vscode
-.devcontainer
-
 # docker
 Dockerfile.local
-
-#

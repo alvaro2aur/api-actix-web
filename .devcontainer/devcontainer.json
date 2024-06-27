@@ -1,0 +1,27 @@
+{
+    "name": "Actix Web Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "remoteUser": "vscode",
+    "runArgs": [
+        "--env-file",
+        ".env.template",
+        "--network",
+        "tecnoandina"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "ms-vscode.cpptools",
+                "humao.rest-client"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8080
+    ],
+    "postCreateCommand": "cargo build"
+}
