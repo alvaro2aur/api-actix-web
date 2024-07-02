@@ -1,5 +1,10 @@
 ###
-GET http://localhost:8081/summary/1548787878787
+GET http://localhost:8080/summary
+?idta=2103010000000
+Content-Type: application/json
 
-###
-GET http://localhost:8081/summary/detail
+{
+    "client": {
+        "client_db_schema": "pollos_chile"
+    }
+}
